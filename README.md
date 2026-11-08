@@ -2,6 +2,8 @@
 
 🇫🇷 [Français](#français) · 🇬🇧 [English](#english)
 
+**Essayer la démo / Try the demo :** https://valentin-auger-laboratoire.github.io/portfolio/demos/vision-ecg/
+
 ![Image d'ECG sur papier et tracé numérisé avec les pics R détectés](images/vision-ecg.png)
 
 > ECG **de synthèse** imprimé sur un papier millimétré généré par le programme : aucune donnée de patient. Projet d'étude, **pas un dispositif médical**.
@@ -41,6 +43,7 @@ python extraire.py exemples/irregulier.png
 ### Fichiers
 | Fichier | Contenu |
 |---|---|
+| `demo/` | démo web (copie de celle du portfolio), avec ses tests : `node demo/tests/test.js` |
 | `visionecg/papier.py` | génération d'ECG de synthèse sur papier millimétré (image PNG) |
 | `visionecg/extraction.py` | séparation, échelle, étalonnage, numérisation, pics R, mesures |
 | `extraire.py` | rapport en ligne de commande |
